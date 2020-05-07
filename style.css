@@ -203,7 +203,7 @@ h2.child-pages{
     color:#888;
     font-size: 15px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     border-bottom: #999999 1px dotted;
     padding-bottom: 20px;
 }
@@ -213,8 +213,6 @@ h2.child-pages{
     list-style: none;
     display: flex;
     color: #999999;
-    
-    
 }
 
 .footer-blog-link p{
@@ -225,5 +223,93 @@ h2.child-pages{
     align-items: center;
 }
 
+.footer-blog-link p:hover {
+    color: #993408;
+}
+
+.fas {
+    color: #999999;
+}
+
+.fas:hover {
+    color: #993408;
+}
+
+.recent{
+    list-style: none;
+    display:inline-flex;
+    justify-content: space-between;
+}
+
+.social-facebook{
+    color: #999999;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.facebook{
+    padding-left: 15px;
+}
+
+.social-facebook:hover{
+    color: #1877f2;
+}
 
 
+.social-twitter{
+    color: #999999;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.twitter{
+    padding-left: 15px;
+}
+
+.social-twitter:hover{
+    color: #1da1f2;
+}
+
+
+.social-linkedin{
+    color: #999999;
+    list-style: none;
+    font-size: 1.4rem;
+    
+}
+
+.linkedin{
+    padding-left: 15px;
+}
+
+.social-linkedin:hover{
+    color:#007bb5;
+}
+
+
+
+.social-rss{
+    color: #999999;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.rss{
+    padding-left: 15px;
+}
+
+.social-rss:hover{
+    color:#ee802f;
+}
+
+.security
+{
+    list-style: none;
+    color: #888;
+    
+}
+
+.security:hover{
+    color: #993408;
+    cursor: pointer;
+}
