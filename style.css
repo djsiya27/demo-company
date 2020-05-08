@@ -325,14 +325,13 @@ h2.child-pages{
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding-top: 20px;
 }
 
 
 
 ul{
-    display: inline-flex!important;
+    display: inline-flex;
 }
 
 ul li{
