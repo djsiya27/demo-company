@@ -356,4 +356,7 @@ ul li a:hover{
     color: #999;
     font-family: Tahoma;
     font-size: 13px;
+    padding-top: 14px;
+    padding-bottom: 30px;
+    padding-left: 0px;
 }
