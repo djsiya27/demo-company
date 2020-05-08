@@ -313,3 +313,47 @@ h2.child-pages{
     color: #993408;
     cursor: pointer;
 }
+
+.footer{
+    background-image: url(./images/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+
+ul{
+    display: inline-flex!important;
+}
+
+ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li a{
+    color: #666;
+    padding-left: 1rem;
+    font-size: 13px;
+    font-family: Tahoma;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color: #993408;
+}
+
+.copyright{
+    color: #999;
+    font-family: Tahoma;
+    font-size: 13px;
+}
